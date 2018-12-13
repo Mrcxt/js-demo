@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import elementUI from 'element-ui'
 import VueQuillEditor from 'vue-quill-editor'
+import tinymce from 'vue-tinymce-editor'
 
 
 /* css */
@@ -19,8 +20,9 @@ import 'quill/dist/quill.bubble.css'
 Vue.use(elementUI, {
     size: "mini"
 })
-
 Vue.use(VueQuillEditor)
+
+Vue.component('tinymce', tinymce)
 
 
 Vue.config.productionTip = false

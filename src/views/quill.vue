@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="">
     <!-- <div id="toolbar">
       <select class="ql-size">
         <option value="small">10px</option>
@@ -11,14 +11,14 @@
       <button class="ql-script" value="sub"></button>
       <button class="ql-script" value="super"></button>
     </div> -->
-    <quill-editor class="my-editor" v-model="content" ref="myQuillEditor" :options="editorOption" @blur="onEditorBlur($event)" @focus="onEditorFocus($event)" @ready="onEditorReady($event)">
-    </quill-editor>
+    <quill-editor class="my-editor" v-model="content" ref="myQuillEditor" :options="editorOption" @blur="onEditorBlur($event)" @focus="onEditorFocus($event)" @ready="onEditorReady($event)"></quill-editor>
   </div>
 </template>
 
 <script>
 export default {
-  name: "home",
+  name: "tinymce",
+  components: {},
   data() {
     return {
       content: "<h2>I am Example</h2>",
@@ -67,6 +67,7 @@ export default {
   }
 };
 </script>
+
 <style lang="less">
 .my-editor {
   max-height: 400px;
@@ -147,4 +148,3 @@ export default {
   }
 }
 </style>
-

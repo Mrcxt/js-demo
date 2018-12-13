@@ -6643,6 +6643,11 @@ timsort@^0.3.0:
   resolved "http://registry.npm.taobao.org/timsort/download/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tinymce@^4.7.7:
+  version "4.9.1"
+  resolved "http://registry.npm.taobao.org/tinymce/download/tinymce-4.9.1.tgz#821cecb103982ec8e37aae44a8f732849e3660d0"
+  integrity sha1-ghzssQOYLsjjeq5EqPcyhJ42YNA=
+
 to-arraybuffer@^1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/to-arraybuffer/download/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
@@ -7004,7 +7009,7 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.17:
+vue-template-compiler@^2.5.13, vue-template-compiler@^2.5.17:
   version "2.5.21"
   resolved "http://registry.npm.taobao.org/vue-template-compiler/download/vue-template-compiler-2.5.21.tgz#a57ceb903177e8f643560a8d639a0f8db647054a"
   integrity sha1-pXzrkDF36PZDVgqNY5oPjbZHBUo=
@@ -7017,7 +7022,16 @@ vue-template-es2015-compiler@^1.6.0:
   resolved "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
   integrity sha1-3EJpcTMwLOMBdSQ1amxht7abShg=
 
-vue@^2.5.17:
+vue-tinymce-editor@^1.6.2:
+  version "1.6.2"
+  resolved "http://registry.npm.taobao.org/vue-tinymce-editor/download/vue-tinymce-editor-1.6.2.tgz#3edfc736782fdb6515d50ce701720e9ec77df9fd"
+  integrity sha1-Pt/HNngv22UV1QznAXIOnsd9+f0=
+  dependencies:
+    tinymce "^4.7.7"
+    vue "^2.5.13"
+    vue-template-compiler "^2.5.13"
+
+vue@^2.5.13, vue@^2.5.17:
   version "2.5.21"
   resolved "http://registry.npm.taobao.org/vue/download/vue-2.5.21.tgz#3d33dcd03bb813912ce894a8303ab553699c4a85"
   integrity sha1-PTPc0Du4E5Es6JSoMDq1U2mcSoU=
