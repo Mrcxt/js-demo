@@ -21,6 +21,15 @@ export default new Router({
             meta: {
                 visible: true
             }
+        },
+        {
+            path: '/g6-flow',
+            name: 'g6-flow',
+            component: () =>
+                import ('./views/g6-flow.vue'),
+            meta: {
+                visible: true
+            }
         }
     ]
 })
